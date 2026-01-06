@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rules xmlns:window="http://schemas.android.com/apk/res-auto">
+
+    <SplitPairRule
+        window:clearTop="true"
+        window:finishPrimaryWithSecondary="never"
+        window:finishSecondaryWithPrimary="always">
+
+        <SplitPairFilter
+            window:primaryActivityName="com.example.coffeeapp.Activity.MainActivity"
+            window:secondaryActivityName="com.example.coffeeapp.Activity.ItemsListActivity" />
+
+        <SplitPairFilter
+            window:primaryActivityName="com.example.coffeeapp.Activity.ItemsListActivity"
+            window:secondaryActivityName="com.example.coffeeapp.Activity.DetailActivity" />
+
+        <SplitPairFilter
+            window:primaryActivityName="com.example.coffeeapp.Activity.MainActivity"
+            window:secondaryActivityName="com.example.coffeeapp.Activity.CartActivity" />
+
+        <SplitAttributes
+            window:splitType="ratio"
+            window:splitRatio="0.5"
+            window:layoutDirection="locale" />
+
+    </SplitPairRule>
+
+</rules>

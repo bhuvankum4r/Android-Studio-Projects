@@ -1,0 +1,17 @@
+# ===== Android / Gradle =====
+**/.gradle/
+**/build/
+**/local.properties
+**/*.iml
+**/.idea/
+
+# ===== Native builds =====
+**/.cxx/
+**/.externalNativeBuild/
+
+# ===== Logs =====
+*.log
+
+# ===== OS =====
+Thumbs.db
+.DS_Store
